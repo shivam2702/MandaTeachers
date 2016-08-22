@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MIT CMS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Home">Home</string>
+    <string name="Email">Email</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Social">Social</string>
+    <string name="Phone">Phone</string>
+    <string name="Media">Media</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="notice">
+        <item>Students Notice</item>
+        <item>Teachers Notice</item>
+    </string-array>
+    <string-array name="subjectallotment">
+        <item>New Allotment</item>
+        <item>Check Allotment</item>
+    </string-array>
+    <string name="title_activity_nextpage">nextpage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_attendance">attendance</string>
+    <string name="title_activity_midtermresult">midtermresult</string>
+    <string name="title_activity_assignmentresult">assignmentresult</string>
+    <string name="title_activity_noticeboard">noticeboard</string>
+    <string name="title_activity_acadmiccalendar">acadmiccalendar</string>
+    <string name="title_activity_fragment_my">fragment_my</string>
+    <string name="title_activity_subjectallotment">subjectallotment</string>
+
+    <string-array name="assignment">
+        <item>Select Assignment</item>
+        <item>1st Assignment</item>
+        <item>2nd Assignment</item>
+        <item>3rd Assignment</item>
+        <item>4th Assignment</item>
+        <item>5th Assignment</item>
+    </string-array>
+
+    <string-array name="midterm">
+        <item>Select Mid Term</item>
+        <item>1st Mid Term</item>
+        <item>2nd Mid Term</item>
+        <item>3rd Mid Term</item>
+        <item>4th Mid Term</item>
+        <item>5th Mid Term</item>
+    </string-array>
+
+    <string-array name="totbranch">
+        <item>Select Branch</item>
+        <item>Computer Science And Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Food and Technology</item>
+    </string-array>
+
+    <string-array name="totsem">
+        <item>Select Semester</item>
+        <item>I Semester</item>
+        <item>II Semester</item>
+        <item>III Semester</item>
+        <item>IV Semester</item>
+        <item>V Semester</item>
+        <item>VI Semester</item>
+        <item>VII Semester</item>
+        <item>VIII Semester</item>
+    </string-array>
+
+    <string-array name="viva">
+        <item>0.00</item>
+        <item>0.25</item>
+        <item>0.50</item>
+        <item>0.75</item>
+        <item>1.00</item>
+    </string-array>
+
+    <string name="title_activity_login_page">LoginPage</string>
+
+
+</resources>

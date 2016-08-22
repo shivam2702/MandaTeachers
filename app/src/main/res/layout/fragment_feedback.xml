@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="templates.yogeshbalan.com.navigationdrawertemplatee.fragments.feedback"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Feedback US"
+        android:id="@+id/textView3"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="25dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Your Rating"
+            android:id="@+id/textView14"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yourrate"
+            android:numStars="5"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Overall Rating"
+            android:id="@+id/textView16"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/overallrate"
+            android:numStars="5"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback"
+        android:layout_weight="0.26" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:id="@+id/submitfeedback"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="templates.yogeshbalan.com.navigationdrawertemplatee.fragments.NoticeBoard">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<it.neokree.materialtabs.MaterialTabHost-->
+        <!--android:id="@+id/materialTabHost1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_below="@+id/toolbar"-->
+        <!--app:accentColor="#00ACC1"-->
+        <!--app:primaryColor="@color/colorPrimary"-->
+        <!--app:textColor="#FFFFFF" />-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/materialTabHost1"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

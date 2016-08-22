@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/draw"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="hvgekg"
+            android:textColor="@color/material_drawer_primary_text"
+            android:textSize="@dimen/material_drawer_primary_text" />
+    </LinearLayout>
+</RelativeLayout>
